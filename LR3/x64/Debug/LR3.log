@@ -1,0 +1,14 @@
+﻿  Source.c
+C:\Users\user\Desktop\Алгоритмизация\LR3\LR3\Source.c(14,5): warning C4550: вычисление выражения дает функцию, в которой отсутствует список аргументов
+C:\Users\user\Desktop\Алгоритмизация\LR3\LR3\Source.c(19,5): warning C4550: вычисление выражения дает функцию, в которой отсутствует список аргументов
+C:\Users\user\Desktop\Алгоритмизация\LR3\LR3\Source.c(30,5): warning C4550: вычисление выражения дает функцию, в которой отсутствует список аргументов
+C:\Users\user\Desktop\Алгоритмизация\LR3\LR3\Source.c(32,16): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\user\Desktop\Алгоритмизация\LR3\LR3\Source.c(34,16): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\user\Desktop\Алгоритмизация\LR3\LR3\Source.c(36,16): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\user\Desktop\Алгоритмизация\LR3\LR3\Source.c(45,5): warning C4550: вычисление выражения дает функцию, в которой отсутствует список аргументов
+C:\Users\user\Desktop\Алгоритмизация\LR3\LR3\Source.c(48,5): warning C4550: вычисление выражения дает функцию, в которой отсутствует список аргументов
+C:\Users\user\Desktop\Алгоритмизация\LR3\LR3\Source.c(63,5): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\user\Desktop\Алгоритмизация\LR3\LR3\Source.c(59,1): warning C4716: matrs: должна возвращать значение
+C:\Users\user\Desktop\Алгоритмизация\LR3\LR3\Source.c(23,1): warning C4716: nums: должна возвращать значение
+C:\Users\user\Desktop\Алгоритмизация\LR3\LR3\Source.c(38,1): warning C4716: dyms: должна возвращать значение
+  LR3.vcxproj -> C:\Users\user\Desktop\Алгоритмизация\LR3\x64\Debug\LR3.exe

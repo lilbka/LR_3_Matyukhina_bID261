@@ -1,0 +1,4 @@
+﻿  Source.c
+C:\Users\user\Desktop\Алгоритмизация\DZ3\DZ3\Source.c(11,5): warning C4550: вычисление выражения дает функцию, в которой отсутствует список аргументов
+C:\Users\user\Desktop\Алгоритмизация\DZ3\DZ3\Source.c(14,5): warning C4550: вычисление выражения дает функцию, в которой отсутствует список аргументов
+  DZ3.vcxproj -> C:\Users\user\Desktop\Алгоритмизация\DZ3\x64\Debug\DZ3.exe
