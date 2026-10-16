@@ -6,17 +6,27 @@
 #define P 2.32166
 #define S 2.7076
 
+
+int main()
+{
+    system("chcp 1251");
+    setlocale(LC_ALL, "RUS");
+    nums();
+    dyms();
+    matrs();
+
+    return 0;
+
+}
+
 int nums()
 {
-    setlocale(LC_ALL, "RUS");
     int n;
     printf("введите число:");
-    puts;
     scanf("%d", &n);
     printf("введено число %d\n", n);
     int f;
     printf("введите второе число:");
-    puts;
     scanf("%d", &f);
     printf("введено число %d\n", f);
     printf("сумма %d, разность %d, произведение %d, частное %f, остаток %d\n", n + f, n - f, n * f, (float)f / n, f % n);
@@ -25,16 +35,11 @@ int nums()
 int dyms()
 {
     int d;
-    float result;
     printf("введите данные дл€ расчЄта:");
-    puts;
     scanf("%d", &d);
-    result = D * d;
-    printf("\n%d дюймов Ц это %.1f см", d, result);
-    result = P * d;
-    printf("\n%d испанских дюймов Ц это %.1f см", d, result);
-    result = S * d;
-    printf("\n%d старолитовских дюймов Ц это %.1f см\n", d, result);
+    printf("\n%d дюймов Ц это %.1f см", d, D * d);
+    printf("\n%d испанских дюймов Ц это %.1f см", d, P * d);
+    printf("\n%d старолитовских дюймов Ц это %.1f см\n", d, S * d);
 }
 
 int matrs()
@@ -42,10 +47,8 @@ int matrs()
     int a;
     int b;
     printf("введите число a:");
-    puts;
     scanf("%d", &a);
     printf("введите число b:");
-    puts;
     scanf("%d", &b);
 
     printf("----------------------------------------------");
@@ -55,16 +58,5 @@ int matrs()
     printf("\n---------------------------------------------");
     printf("\n| %7d       | %8d      |  %7d  |", a * b, a + b, a - b);
     printf("\n----------------------------------------------");
-
-}
-
-int main()
-{
-    system("chcp 1251");
-    nums();
-    dyms();
-    matrs();
-
-    return 0;
 
 }

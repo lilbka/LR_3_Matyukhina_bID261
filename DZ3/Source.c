@@ -6,6 +6,11 @@
 int main() //вариант 18
 {
     setlocale(LC_ALL, "RUS");
+    dz();
+}
+
+int dz()
+{
     double a, b, c;
     printf("введите первый катет a: ");
     puts;
